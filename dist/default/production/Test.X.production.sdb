@@ -1,0 +1,214 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F2550 ]
+[d frameptr 4065 ]
+"4 /home/hidden02/software/xc8/v2.41/v2.41/pic/sources/c90/common/fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 /home/hidden02/software/xc8/v2.41/v2.41/pic/sources/c90/common/float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 /home/hidden02/software/xc8/v2.41/v2.41/pic/sources/c90/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 /home/hidden02/software/xc8/v2.41/v2.41/pic/sources/c90/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 /home/hidden02/software/xc8/v2.41/v2.41/pic/sources/c90/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 /home/hidden02/software/xc8/v2.41/v2.41/pic/sources/c90/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 /home/hidden02/software/xc8/v2.41/v2.41/pic/sources/c90/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 /home/hidden02/software/xc8/v2.41/v2.41/pic/sources/c90/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 /home/hidden02/software/xc8/v2.41/v2.41/pic/sources/c90/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 /home/hidden02/software/xc8/v2.41/v2.41/pic/sources/c90/common/strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+"15 /home/hidden02/software/xc8/v2.41/v2.41/pic/sources/c90/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 /home/hidden02/software/xc8/v2.41/v2.41/pic/sources/c90/common/Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"23 /home/hidden02/MPLABXProjects/Test.X/main.c
+[v _usart_conf usart_conf `(v  1 e 1 0 ]
+"35
+[v _interrupt_conf interrupt_conf `(v  1 e 1 0 ]
+"43
+[v _ports_conf ports_conf `(v  1 e 1 0 ]
+"47
+[v _set_usart_response set_usart_response `(v  1 e 1 0 ]
+"56
+[v _start_tx start_tx `(v  1 e 1 0 ]
+"63
+[v _switch_cmd switch_cmd `(v  1 e 1 0 ]
+"75
+[v _main main `(v  1 e 1 0 ]
+"85
+[v _tcInt tcInt `IIH(v  1 e 1 0 ]
+[s S95 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"2286 /home/hidden02/software/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8/pic/include/proc/pic18f2550.h
+[s S104 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S112 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S115 . 1 `S95 1 . 1 0 `S104 1 . 1 0 `S112 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES115  1 e 1 @3969 ]
+"3035
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"3257
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"3470
+[v _PIE1 PIE1 `VEuc  1 e 1 @3997 ]
+[s S140 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+]
+"3491
+[s S148 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[u S152 . 1 `S140 1 . 1 0 `S148 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES152  1 e 1 @3997 ]
+[s S168 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"3562
+[s S176 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S180 . 1 `S168 1 . 1 0 `S176 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES180  1 e 1 @3998 ]
+"3983
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"4193
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+[s S36 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"4232
+[s S45 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S54 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S57 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S59 . 1 `S36 1 . 1 0 `S45 1 . 1 0 `S54 1 . 1 0 `S57 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES59  1 e 1 @4012 ]
+"4449
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"4461
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"4473
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"4485
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+"4979
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @4024 ]
+"7232
+[v _INTCON3 INTCON3 `VEuc  1 e 1 @4080 ]
+"7324
+[v _INTCON2 INTCON2 `VEuc  1 e 1 @4081 ]
+"7401
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+"13 /home/hidden02/MPLABXProjects/Test.X/main.c
+[v _rx_buffer rx_buffer `[5]uc  1 e 5 0 ]
+"14
+[v _rx_buffer_ptr rx_buffer_ptr `uc  1 e 1 0 ]
+"17
+[v _tx_buffer tx_buffer `[10]uc  1 e 10 0 ]
+"18
+[v _tx_buffer_ptr tx_buffer_ptr `uc  1 e 1 0 ]
+"75
+[v _main main `(v  1 e 1 0 ]
+{
+"83
+} 0
+"23
+[v _usart_conf usart_conf `(v  1 e 1 0 ]
+{
+"33
+} 0
+"43
+[v _ports_conf ports_conf `(v  1 e 1 0 ]
+{
+"45
+} 0
+"35
+[v _interrupt_conf interrupt_conf `(v  1 e 1 0 ]
+{
+"41
+} 0
+"85
+[v _tcInt tcInt `IIH(v  1 e 1 0 ]
+{
+"103
+} 0
+"63
+[v _switch_cmd switch_cmd `(v  1 e 1 0 ]
+{
+[v switch_cmd@ptr ptr `*.39uc  1 p 2 7 ]
+"73
+} 0
+"4 /home/hidden02/software/xc8/v2.41/v2.41/pic/sources/c90/common/strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+{
+[v strncmp@s1 s1 `*.39Cuc  1 p 2 0 ]
+[v strncmp@s2 s2 `*.32Cuc  1 p 2 2 ]
+[v strncmp@len len `ui  1 p 2 4 ]
+"14
+} 0
+"56 /home/hidden02/MPLABXProjects/Test.X/main.c
+[v _start_tx start_tx `(v  1 e 1 0 ]
+{
+"61
+} 0
+"47
+[v _set_usart_response set_usart_response `(v  1 e 1 0 ]
+{
+"48
+[v set_usart_response@i i `uc  1 a 1 5 ]
+"47
+[v set_usart_response@res res `*.32uc  1 p 2 0 ]
+[v set_usart_response@res_len res_len `uc  1 p 1 2 ]
+"54
+} 0
